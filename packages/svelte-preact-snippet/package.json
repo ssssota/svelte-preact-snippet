@@ -28,5 +28,10 @@
   },
   "dependencies": {
     "preact-render-to-string": "^6.5.9"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ssssota/svelte-preact-snippet.git"
+  },
+  "homepage": "https://ssssota.github.io/svelte-preact-snippet/"
 }
