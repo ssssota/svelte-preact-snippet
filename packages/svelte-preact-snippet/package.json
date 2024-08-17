@@ -1,0 +1,32 @@
+{
+  "name": "svelte-preact-snippet",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.svelte.d.ts",
+      "default": "./dist/index.svelte.js"
+    }
+  },
+  "files": ["dist"],
+  "keywords": ["svelte", "preact", "snippet"],
+  "author": "TOMIKAWA Sotaro",
+  "license": "MIT",
+  "description": "Create svelte snippets with JSX syntax based on preact",
+  "devDependencies": {
+    "preact": "^10.23.2",
+    "svelte": "^5.0.0-next.223",
+    "typescript": "^5.5.4"
+  },
+  "peerDependencies": {
+    "preact": "^10.23.2",
+    "svelte": "^5.0.0-next.223"
+  },
+  "dependencies": {
+    "preact-render-to-string": "^6.5.9"
+  }
+}
